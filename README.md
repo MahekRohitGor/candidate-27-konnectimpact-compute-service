@@ -138,10 +138,8 @@ README with setup + API usage
 2 Screenshots: idle + running
 
 Author
-Mahek Gor
-[KonnectImpact Cloudflare Worker Module Submission]
+Mahek Gor <br>
+[KonnectImpact Cloudflare Worker Module Submission] <br>
 
 
 ---
-
-Let me know if you'd like me to help you [take and save screenshots to the folder](f) or prepare your [final submission message to paste in email or portal](f)!
