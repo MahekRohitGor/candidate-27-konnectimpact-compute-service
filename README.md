@@ -127,19 +127,16 @@ src/
 ```
 
 ## Screenshots
-Screenshots are placed inside the screenshots/ folder.
+Screenshots are placed inside the screenshots/ folder.<br>
 
 ## Submission Checklist
-GitHub Repo: candidate-27-konnectimpact-compute-service
-Live URL on .workers.dev
-Wrangler v3, TypeScript 5, KV setup
-Unit tests using Jest
-README with setup + API usage
-2 Screenshots: idle + running
+GitHub Repo: candidate-27-konnectimpact-compute-service<br>
+Live URL on .workers.dev<br>
+Wrangler v3, TypeScript 5, KV setup<br>
+Unit tests using Jest<br>
+README with setup + API usage<br>
+2 Screenshots: idle + running<br>
 
-Author
+### Author
 Mahek Gor <br>
 [KonnectImpact Cloudflare Worker Module Submission] <br>
-
-
----
