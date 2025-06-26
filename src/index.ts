@@ -14,6 +14,7 @@
 import { handleInvite } from "./handlers/invite";
 import { handleRedeem } from "./handlers/redeem";
 import { handleWallet } from "./handlers/wallet";
+import { handleRaffleUpdate } from "./handlers/raffle";
 import { Env } from "./types/env";
 
 export default {
@@ -31,6 +32,11 @@ export default {
 		if (request.method === "GET" && url.pathname === "/wallet") {
 			return handleWallet(request, env);
 		}
-		return new Response("Not Found", { status: 404 });
+
+		if (request.method === "POST" && url.pathname === "/raffle/update") {
+			return handleRaffleUpdate(request);
+		}
+
+		return new Response("Hello World (Candidate 27) ! Not Found Route", { status: 404 });
 	},
 };
