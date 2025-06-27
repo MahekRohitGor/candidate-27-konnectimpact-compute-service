@@ -14,7 +14,7 @@ export function getHomePage(): string {
       </style>
     </head>
     <body>
-      <h1>KonnectImpact API UI</h1>
+      <h1>KonnectImpact</h1>
 
       <div class="section">
         <h2>Invite</h2>
