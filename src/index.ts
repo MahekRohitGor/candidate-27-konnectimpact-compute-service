@@ -15,11 +15,18 @@ import { handleInvite } from "./handlers/invite";
 import { handleRedeem } from "./handlers/redeem";
 import { handleWallet } from "./handlers/wallet";
 import { handleRaffleUpdate } from "./handlers/raffle";
+import { getHomePage } from "./ui/home";
 import { Env } from "./types/env";
 
 export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
+
+		if (request.method === "GET" && url.pathname === "/") {
+  			return new Response(getHomePage(), {
+    		headers: { "Content-Type": "text/html" },
+  		});
+		}
 
 		if (request.method === "POST" && url.pathname === "/invite") {
 			return handleInvite(request, env);
